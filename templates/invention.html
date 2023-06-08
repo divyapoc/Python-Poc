@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Famous Invention</h1>
+{% for data in tech %}
+<h2>Invention:{{data.invention}}</h2>
+<h4>Inventor:{{data.inventor}}</h4>
+{% endfor %}
+{% endblock %}

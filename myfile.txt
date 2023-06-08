@@ -1,0 +1,3 @@
+1.You can return one line by using the readline() method.
+2.y calling readline() two times, you can read the two first lines.
+3.By looping through the lines of the file, you can read the whole file, line by line.
